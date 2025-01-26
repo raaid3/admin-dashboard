@@ -227,12 +227,49 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 3fr;
 }
 body .sidebar {
   grid-row: 1/-1;
   grid-column: 1/2;
+}
+body .nav .nav-top {
+  width: 100%;
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+body .nav .nav-top .nav-top-right {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+body .nav .nav-top .nav-top-right img:last-of-type {
+  width: 30px;
+  height: auto;
+}
+body .nav .nav-top .nav-top-right h2 {
+  font-size: 0.8rem;
+}
+body .nav .nav-top .search-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-grow: 1;
+}
+body .nav .nav-top .search-field input {
+  width: 100%;
+  height: 1.5rem;
+  border-radius: 7px;
+  border: none;
+  background-color: #e2e8f0;
+}
+
+.svg-logo {
+  width: 20px;
+  height: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -12,7 +12,7 @@ $outline-color: red;
 
 body {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 3fr;
 
     .sidebar {
@@ -21,4 +21,53 @@ body {
         grid-row: 1 / -1;
         grid-column: 1 / 2; 
     }
+
+    .nav {
+        .nav-top {
+
+            width: 100%;
+            display: flex;
+            gap: 100px;
+            justify-content: space-between;
+            padding: 0.5rem 1rem;
+            
+
+            .nav-top-right {
+                display: flex;
+                align-items: center;
+                gap: 13px;
+
+                img:last-of-type {
+                    width: 30px;
+                    height: auto;
+                }
+
+                h2 {
+                  font-size: 0.8rem;  
+                }
+
+            }
+
+            .search-field {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                flex-grow: 1;
+    
+                input {
+                    width: 100%;
+                    height: 1.5rem;
+                    border-radius: 7px;
+                    border: none;
+                    background-color: #e2e8f0;
+                }
+    
+            }
+        }
+    }
+}
+
+.svg-logo {
+    width: 20px;
+    height: auto;
 }
