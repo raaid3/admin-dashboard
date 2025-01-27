@@ -234,12 +234,14 @@ body .sidebar {
   grid-row: 1/-1;
   grid-column: 1/2;
 }
+body .nav {
+  padding: 0.5rem 2.4rem 0.5rem 1rem;
+}
 body .nav .nav-top {
   width: 100%;
   display: flex;
   gap: 100px;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
 }
 body .nav .nav-top .nav-top-right {
   display: flex;
@@ -260,11 +262,51 @@ body .nav .nav-top .search-field {
   flex-grow: 1;
 }
 body .nav .nav-top .search-field input {
+  font-size: 0.7rem;
   width: 100%;
   height: 1.5rem;
   border-radius: 7px;
   border: none;
   background-color: #e2e8f0;
+}
+body .nav .nav-bottom {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+body .nav .nav-bottom .nav-bottom-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+body .nav .nav-bottom .nav-bottom-left img {
+  width: 45px;
+  height: auto;
+}
+body .nav .nav-bottom .nav-bottom-left p:first-of-type {
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+body .nav .nav-bottom .nav-bottom-left p:last-of-type {
+  font-weight: bold;
+}
+body .nav .nav-bottom .nav-options {
+  display: flex;
+}
+body .nav .nav-bottom .nav-options ul {
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  align-self: center;
+}
+body .nav .nav-bottom .nav-options li {
+  color: white;
+  background-color: #1992d4;
+  font-size: 0.7rem;
+  font-weight: 600;
+  border-radius: 13px;
+  padding: 0.2rem 1.3rem;
 }
 
 .svg-logo {
