@@ -10,7 +10,7 @@
     <div class="sidebar">
         <h2>Dashboard</h2>
 
-        <ul class="side-options">
+        <ul class="sidebar__options">
             <li>Home</li>
             <li>Profile</li>
             <li>Messages</li>
@@ -19,7 +19,7 @@
             <li>Communities</li>
         </ul>
 
-        <ul class="side-options">
+        <ul class="sidebar__options">
             <li>Settings</li>
             <li>Support</li>
             <li>Privacy</li>
@@ -28,30 +28,30 @@
 
     <div class="nav">
         
-        <div class="nav-top">
-            <div class="search-field">
+        <div class="nav__top flex">
+            <div class="nav__search flex">
                 <label for="search-bar">
                     <img class="svg-logo" src="assets/magnify.svg" alt="search">
                 </label>
                 <input type="search" id="search-bar" name="search-result">
             </div>
-            <div class="nav-top-right">
+            <div class="nav__top__right flex">
                 <img class="svg-logo" src="assets/bell-ring.svg" alt="notifications">
                 <img src="assets/pfp-5.svg" alt="My profile picture">
                 <h2>Dhyan Rai</h2>
             </div>
         </div>
 
-        <div class="nav-bottom">
-            <div class="nav-bottom-left">
+        <div class="nav__bottom flex">
+            <div class="nav__bottom__left flex">
                 <img src="assets/pfp-5.svg" alt="My profile picture">
                 <div>
                     <p>Hi there,</p>
                     <p>Dhyan Rai (@dhyan)</p>
                 </div>
             </div>
-            <div class="nav-options">
-                <ul>
+            <div class="nav__options flex">
+                <ul class="flex">
                     <li>New</li>
                     <li>Upload</li>
                     <li>Share</li>
@@ -60,9 +60,35 @@
         </div>
     </div>
 
-    <div class="content">
-        <div>
+    <div class="content grid">
+        <div class="content__projects">
             <h3>Your Projects</h3>
+            <div class="content__cards grid">
+                <div class="content__cards__card">
+                    <h4>Super Cool Project</h4>
+                    <p>This is a super cool project. Wanna check it out? Well you'll have to wait.</p>
+                </div>
+                <div class="content__cards__card">
+                    <h4>Project Alpha</h4>
+                    <p>This is Project Alpha. It is currently under development.</p>
+                </div>
+                <div class="content__cards__card">
+                    <h4>Project Beta</h4>
+                    <p>Project Beta is in the testing phase. Stay tuned for updates.</p>
+                </div>
+                <div class="content__cards__card">
+                    <h4>Project Gamma</h4>
+                    <p>Project Gamma is in the planning stage. More details to come.</p>
+                </div>
+                <div class="content__cards__card">
+                    <h4>Project Delta</h4>
+                    <p>Project Delta is a new initiative. Exciting things are coming.</p>
+                </div>
+                <div class="content__cards__card">
+                    <h4>Project Epsilon</h4>
+                    <p>Project Epsilon is in the research phase. We are gathering data.</p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
