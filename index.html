@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Admin Dashboard</title>
 </head>
@@ -11,7 +14,10 @@
         <h2>Dashboard</h2>
 
         <ul class="sidebar__options">
-            <li>Home</li>
+            <li class="flex">
+                <img src="assets/home.svg" class="svg-logo" alt="">
+                <span>Home</span>
+            </li>
             <li>Profile</li>
             <li>Messages</li>
             <li>History</li>
@@ -61,32 +67,62 @@
     </div>
 
     <div class="content grid">
-        <div class="content__projects">
+        <div class="content__projects flex">
             <h3>Your Projects</h3>
             <div class="content__cards grid">
                 <div class="content__cards__card">
                     <h4>Super Cool Project</h4>
                     <p>This is a super cool project. Wanna check it out? Well you'll have to wait.</p>
+                    <div class="content__icons flex">
+                        <img src="assets/star-plus-outline.svg" class="svg-logo" alt="star">
+                        <img src="assets/eye-plus-outline.svg" class="svg-logo" alt="seen">
+                        <img src="assets/source-fork.svg" class="svg-logo" alt="source">
+                    </div>
                 </div>
                 <div class="content__cards__card">
                     <h4>Project Alpha</h4>
                     <p>This is Project Alpha. It is currently under development.</p>
+                    <div class="content__icons flex">
+                        <img src="assets/star-plus-outline.svg" class="svg-logo" alt="star">
+                        <img src="assets/eye-plus-outline.svg" class="svg-logo" alt="seen">
+                        <img src="assets/source-fork.svg" class="svg-logo" alt="source">
+                    </div>
                 </div>
                 <div class="content__cards__card">
                     <h4>Project Beta</h4>
                     <p>Project Beta is in the testing phase. Stay tuned for updates.</p>
+                    <div class="content__icons flex">
+                        <img src="assets/star-plus-outline.svg" class="svg-logo" alt="star">
+                        <img src="assets/eye-plus-outline.svg" class="svg-logo" alt="seen">
+                        <img src="assets/source-fork.svg" class="svg-logo" alt="source">
+                    </div>
                 </div>
                 <div class="content__cards__card">
                     <h4>Project Gamma</h4>
                     <p>Project Gamma is in the planning stage. More details to come.</p>
+                    <div class="content__icons flex">
+                        <img src="assets/star-plus-outline.svg" class="svg-logo" alt="star">
+                        <img src="assets/eye-plus-outline.svg" class="svg-logo" alt="seen">
+                        <img src="assets/source-fork.svg" class="svg-logo" alt="source">
+                    </div>
                 </div>
                 <div class="content__cards__card">
                     <h4>Project Delta</h4>
                     <p>Project Delta is a new initiative. Exciting things are coming.</p>
+                    <div class="content__icons flex">
+                        <img src="assets/star-plus-outline.svg" class="svg-logo" alt="star">
+                        <img src="assets/eye-plus-outline.svg" class="svg-logo" alt="seen">
+                        <img src="assets/source-fork.svg" class="svg-logo" alt="source">
+                    </div>
                 </div>
                 <div class="content__cards__card">
                     <h4>Project Epsilon</h4>
                     <p>Project Epsilon is in the research phase. We are gathering data.</p>
+                    <div class="content__icons flex">
+                        <img src="assets/star-plus-outline.svg" class="svg-logo" alt="star">
+                        <img src="assets/eye-plus-outline.svg" class="svg-logo" alt="seen">
+                        <img src="assets/source-fork.svg" class="svg-logo" alt="source">
+                    </div>
                 </div>
             </div>
         </div>
