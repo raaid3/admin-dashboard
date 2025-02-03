@@ -11,7 +11,11 @@
 </head>
 <body>
     <div class="sidebar">
-        <h2 class="sidebar__title">Dashboard</h2>
+
+        <div class="sidebar__header">
+            <img src="assets/svg-icons/view-dashboard.svg" class="svg-logo" alt="">
+            <h2 class="sidebar__title">Dashboard</h2>
+        </div>
 
         <ul class="sidebar__options">
             <li>
@@ -58,36 +62,33 @@
 
     <div class="nav grid">
         
-        <!-- <div class="nav__top flex"> -->
-            <div class="nav__search flex">
-                <label for="search-bar">
-                    <img class="svg-logo" src="assets/magnify.svg" alt="search">
-                </label>
-                <input type="search" id="search-bar" name="search-result">
-            </div>
-            <div class="nav__top__right flex">
-                <img class="svg-logo" src="assets/bell-ring.svg" alt="notifications">
-                <img class="pfp" src="assets/pfp-5.svg" alt="My profile picture">
-                <h2>Dhyan Rai</h2>
-            </div>
-        <!-- </div> -->
+        <div class="nav__search flex">
+            <label for="search-bar">
+                <img class="svg-logo" src="assets/magnify.svg" alt="search">
+            </label>
+            <input type="search" id="search-bar" name="search-result">
+        </div>
+        <div class="nav__top__right flex">
+            <img class="svg-logo" src="assets/bell-ring.svg" alt="notifications">
+            <img class="pfp" src="assets/pfp-5.svg" alt="My profile picture">
+            <h2>Dhyan Rai</h2>
+        </div>
 
-        <!-- <div class="nav__bottom flex"> -->
-            <div class="nav__bottom__left flex">
-                <img src="assets/pfp-5.svg" alt="My profile picture">
-                <div>
-                    <p>Hi there,</p>
-                    <p>Dhyan Rai (@dhyan)</p>
-                </div>
+        <div class="nav__bottom__left flex">
+            <img src="assets/pfp-5.svg" alt="My profile picture">
+            <div>
+                <p>Hi there,</p>
+                <p>Dhyan Rai (@dhyan)</p>
             </div>
-            <div class="nav__options flex">
-                <ul class="flex">
-                    <li>New</li>
-                    <li>Upload</li>
-                    <li>Share</li>
-                </ul>
-            </div>
-        <!-- </div> -->
+        </div>
+        <div class="nav__options flex">
+            <ul class="flex">
+                <li>New</li>
+                <li>Upload</li>
+                <li>Share</li>
+            </ul>
+        </div>
+
     </div>
 
     <div class="content grid">
