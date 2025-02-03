@@ -1,2 +1,2 @@
 # admin-dashboard
- Front end for an Admin Dashboard using CSS and HTML
+ Front end for a simple Admin Dashboard made using SCSS and HTML as part of the Odin Project.
